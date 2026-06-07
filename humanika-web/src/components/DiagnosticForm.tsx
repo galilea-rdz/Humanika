@@ -53,8 +53,8 @@ export default function DiagnosticForm() {
   };
 
   const inputClass = (hasError: boolean) =>
-    `w-full px-4 py-3 text-sm border rounded-md bg-white text-[#0F1923] placeholder-[#5A6478] focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
-      hasError ? 'border-red-400 focus:ring-red-400' : 'border-gray-200 focus:ring-[#1a5cb8]'
+    `w-full px-4 py-3 text-sm border rounded-md bg-white text-[#191616] placeholder-[#5A6478] focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
+      hasError ? 'border-red-400 focus:ring-red-400' : 'border-gray-200 focus:ring-[#1173E4]'
     }`;
 
   return (
@@ -64,7 +64,7 @@ export default function DiagnosticForm() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Nombre completo <span className="text-red-500">*</span>
           </label>
           <input
@@ -76,7 +76,7 @@ export default function DiagnosticForm() {
           {errors.nombre && <p className="mt-1 text-xs text-red-500">{errors.nombre.message}</p>}
         </div>
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Puesto / Rol <span className="text-red-500">*</span>
           </label>
           <input
@@ -91,7 +91,7 @@ export default function DiagnosticForm() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Empresa <span className="text-red-500">*</span>
           </label>
           <input
@@ -103,7 +103,7 @@ export default function DiagnosticForm() {
           {errors.empresa && <p className="mt-1 text-xs text-red-500">{errors.empresa.message}</p>}
         </div>
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Número de colaboradores <span className="text-red-500">*</span>
           </label>
           <select
@@ -123,7 +123,7 @@ export default function DiagnosticForm() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Correo electrónico <span className="text-red-500">*</span>
           </label>
           <input
@@ -135,7 +135,7 @@ export default function DiagnosticForm() {
           {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email.message}</p>}
         </div>
         <div>
-          <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+          <label className="block text-sm font-medium text-[#191616] mb-1.5">
             Teléfono / WhatsApp <span className="text-red-500">*</span>
           </label>
           <input
@@ -149,7 +149,7 @@ export default function DiagnosticForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-[#0F1923] mb-1.5">
+        <label className="block text-sm font-medium text-[#191616] mb-1.5">
           Principal desafío{' '}
           <span className="text-[#5A6478] font-normal">(opcional)</span>
         </label>
