@@ -107,9 +107,9 @@ export async function POST(request: NextRequest) {
 
   // Send notification email via Resend
   const resendApiKey = process.env.RESEND_API_KEY;
-  const notificationEmail = process.env.NOTIFICATION_EMAIL || "contacto@humanika.mx";
+  const notificationEmail = process.env.NOTIFICATION_EMAIL;
 
-  if (resendApiKey) {
+  if (resendApiKey && notificationEmail) {
     try {
       const emailBody = `
 Nueva solicitud de diagnóstico organizacional

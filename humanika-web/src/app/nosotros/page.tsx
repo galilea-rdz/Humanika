@@ -38,7 +38,7 @@ export default function Nosotros() {
     <>
       <Header />
       <main className="pt-20">
-        <section className="bg-gradient-to-br from-[#0d2a5e] to-[#1a5cb8] py-24">
+        <section className="bg-gradient-to-br from-[#0A3A7A] to-[#1173E4] py-24">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="max-w-3xl">
               <h1 className="font-sora text-4xl md:text-5xl font-bold text-white mb-6">
@@ -54,20 +54,20 @@ export default function Nosotros() {
         <section className="py-24 bg-white">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="p-8 bg-[#F8F9FB] rounded-xl border-l-4 border-[#1a5cb8]">
-                <div className="w-10 h-10 bg-[#EBF2FF] rounded-lg flex items-center justify-center mb-6">
-                  <Target size={20} className="text-[#1a5cb8]" />
+              <div className="p-8 bg-[#FDFDFD] rounded-xl border-l-4 border-[#1173E4]">
+                <div className="w-10 h-10 bg-[#D6E8FF] rounded-lg flex items-center justify-center mb-6">
+                  <Target size={20} className="text-[#1173E4]" />
                 </div>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Misión</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Misión</h2>
                 <p className="text-[#5A6478] leading-relaxed">
                   Transformar entornos organizacionales a través de la salud mental fundamentada en evidencia, generando organizaciones más productivas, humanas y resilientes.
                 </p>
               </div>
-              <div className="p-8 bg-[#F8F9FB] rounded-xl border-l-4 border-[#00C2A0]">
-                <div className="w-10 h-10 bg-[#EBF2FF] rounded-lg flex items-center justify-center mb-6">
-                  <Eye size={20} className="text-[#1a5cb8]" />
+              <div className="p-8 bg-[#FDFDFD] rounded-xl border-l-4 border-[#00C2A0]">
+                <div className="w-10 h-10 bg-[#D6E8FF] rounded-lg flex items-center justify-center mb-6">
+                  <Eye size={20} className="text-[#1173E4]" />
                 </div>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Visión</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Visión</h2>
                 <p className="text-[#5A6478] leading-relaxed">
                   Ser la consultoría de referencia en salud mental organizacional en el sector industrial de México, reconocida por la solidez técnica y el impacto real en los resultados de negocio.
                 </p>
@@ -76,18 +76,18 @@ export default function Nosotros() {
           </div>
         </section>
 
-        <section className="py-24 bg-[#F8F9FB]">
+        <section className="py-24 bg-[#FDFDFD]">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-14">
-              <h2 className="font-sora text-3xl font-bold text-[#0F1923] mb-4">Nuestros valores</h2>
+              <h2 className="font-sora text-3xl font-bold text-[#191616] mb-4">Nuestros valores</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {values.map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-                  <div className="w-10 h-10 bg-[#EBF2FF] rounded-lg flex items-center justify-center mb-5">
-                    <Icon size={18} className="text-[#1a5cb8]" />
+                  <div className="w-10 h-10 bg-[#D6E8FF] rounded-lg flex items-center justify-center mb-5">
+                    <Icon size={18} className="text-[#1173E4]" />
                   </div>
-                  <h3 className="font-sora font-semibold text-[#0F1923] mb-3">{title}</h3>
+                  <h3 className="font-sora font-semibold text-[#191616] mb-3">{title}</h3>
                   <p className="text-sm text-[#5A6478] leading-relaxed">{desc}</p>
                 </div>
               ))}
@@ -95,7 +95,7 @@ export default function Nosotros() {
           </div>
         </section>
 
-        <section className="py-20 bg-[#1a5cb8]">
+        <section className="py-20 bg-[#1173E4]">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="font-sora text-3xl font-bold text-white mb-6">
               ¿Listo para conocernos?

@@ -48,7 +48,7 @@ export default function StatCounter({ value, prefix = '', suffix = '', label, du
 
   return (
     <div ref={ref} className="text-center">
-      <div className="font-sora text-4xl lg:text-5xl font-bold text-[#1a5cb8] mb-2">
+      <div className="font-sora text-4xl lg:text-5xl font-bold text-[#1173E4] mb-2">
         {prefix}{count.toLocaleString('es-MX')}{suffix}
       </div>
       <p className="text-sm text-[#5A6478] leading-relaxed max-w-32 mx-auto">{label}</p>

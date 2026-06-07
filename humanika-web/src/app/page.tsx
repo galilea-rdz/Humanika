@@ -98,7 +98,7 @@ export default function Home() {
       <Header />
       <main>
         {/* ── Hero ─────────────────────────────────────────────── */}
-        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-[#0d2a5e] via-[#1a5cb8] to-[#0d4a8c]">
+        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-[#0A3A7A] via-[#1173E4] to-[#0B4FC2]">
           {/* Geometric background shapes */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/4 right-0 w-[600px] h-[600px] rounded-full bg-white/5 translate-x-1/3" />
@@ -158,7 +158,7 @@ export default function Home() {
         <section id="problemas" className="py-24 bg-white">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-14">
-              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-4">
+              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-4">
                 ¿Reconoces alguno de estos problemas<br className="hidden md:block" /> en tu organización?
               </h2>
             </div>
@@ -166,12 +166,12 @@ export default function Home() {
               {problems.map(({ icon: Icon, title, desc }) => (
                 <div
                   key={title}
-                  className="group p-6 bg-[#F8F9FB] border-l-4 border-[#1a5cb8] rounded-r-lg hover:shadow-md hover:bg-white transition-all duration-200"
+                  className="group p-6 bg-[#FDFDFD] border-l-4 border-[#1173E4] rounded-r-lg hover:shadow-md hover:bg-white transition-all duration-200"
                 >
-                  <div className="w-10 h-10 flex items-center justify-center rounded-md bg-[#EBF2FF] mb-4 group-hover:bg-[#1a5cb8] transition-colors">
-                    <Icon size={18} className="text-[#1a5cb8] group-hover:text-white transition-colors" />
+                  <div className="w-10 h-10 flex items-center justify-center rounded-md bg-[#D6E8FF] mb-4 group-hover:bg-[#1173E4] transition-colors">
+                    <Icon size={18} className="text-[#1173E4] group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="font-sora font-semibold text-[#0F1923] mb-2">{title}</h3>
+                  <h3 className="font-sora font-semibold text-[#191616] mb-2">{title}</h3>
                   <p className="text-sm text-[#5A6478] leading-relaxed">{desc}</p>
                 </div>
               ))}
@@ -182,7 +182,7 @@ export default function Home() {
               </p>
               <Link
                 href="/diagnostico-gratuito"
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1a5cb8] text-white font-semibold rounded-md hover:bg-[#1449a0] transition-colors"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1173E4] text-white font-semibold rounded-md hover:bg-[#0D5CC4] transition-colors"
               >
                 Habla con un especialista
                 <ArrowRight size={15} />
@@ -192,30 +192,30 @@ export default function Home() {
         </section>
 
         {/* ── Sección 2: Metodología ──────────────────────────── */}
-        <section id="soluciones" className="py-24 bg-[#F8F9FB]">
+        <section id="soluciones" className="py-24 bg-[#FDFDFD]">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-4">
+              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-4">
                 Metodología Humanika: de la evidencia a la acción
               </h2>
             </div>
             <div className="relative">
-              <div className="hidden lg:block absolute top-12 left-[calc(16.67%+2rem)] right-[calc(16.67%+2rem)] h-px bg-[#1a5cb8]/20" />
+              <div className="hidden lg:block absolute top-12 left-[calc(16.67%+2rem)] right-[calc(16.67%+2rem)] h-px bg-[#1173E4]/20" />
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 {steps.map((step, i) => (
                   <div key={step.num} className="relative">
                     <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 h-full">
-                      <span className="font-sora text-5xl font-bold text-[#EBF2FF] leading-none block mb-4">
+                      <span className="font-sora text-5xl font-bold text-[#D6E8FF] leading-none block mb-4">
                         {step.num}
                       </span>
-                      <h3 className="font-sora text-xl font-bold text-[#1a5cb8] mb-4 uppercase tracking-wide">
+                      <h3 className="font-sora text-xl font-bold text-[#1173E4] mb-4 uppercase tracking-wide">
                         {step.title}
                       </h3>
                       <p className="text-sm text-[#5A6478] leading-relaxed">{step.desc}</p>
                     </div>
                     {i < 2 && (
-                      <div className="hidden lg:flex absolute top-12 -right-4 z-10 w-8 h-8 bg-white border border-[#1a5cb8]/20 rounded-full items-center justify-center">
-                        <ArrowRight size={14} className="text-[#1a5cb8]" />
+                      <div className="hidden lg:flex absolute top-12 -right-4 z-10 w-8 h-8 bg-white border border-[#1173E4]/20 rounded-full items-center justify-center">
+                        <ArrowRight size={14} className="text-[#1173E4]" />
                       </div>
                     )}
                   </div>
@@ -232,7 +232,7 @@ export default function Home() {
         <section className="py-24 bg-white">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-4">
+              <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-4">
                 Resultados que hablan por sí solos
               </h2>
             </div>
@@ -252,7 +252,7 @@ export default function Home() {
                 {industries.map((ind) => (
                   <span
                     key={ind}
-                    className="px-4 py-2 bg-[#EBF2FF] text-[#1a5cb8] text-sm font-medium rounded-full"
+                    className="px-4 py-2 bg-[#D6E8FF] text-[#1173E4] text-sm font-medium rounded-full"
                   >
                     {ind}
                   </span>
@@ -260,8 +260,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="max-w-3xl mx-auto bg-[#F8F9FB] border border-[#EBF2FF] rounded-xl p-8 text-center">
-              <p className="text-[#0F1923] leading-relaxed">
+            <div className="max-w-3xl mx-auto bg-[#FDFDFD] border border-[#D6E8FF] rounded-xl p-8 text-center">
+              <p className="text-[#191616] leading-relaxed">
                 <strong>Humanika no ofrece talleres de wellness genéricos.</strong> Cada intervención está sustentada en evaluación psicológica, metodología clínica y conocimiento del entorno laboral mexicano.
               </p>
             </div>
@@ -269,12 +269,12 @@ export default function Home() {
         </section>
 
         {/* ── Sección 4: Formulario Diagnóstico ──────────────── */}
-        <section id="diagnostico" className="py-24 bg-[#F8F9FB]">
+        <section id="diagnostico" className="py-24 bg-[#FDFDFD]">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               {/* Left: info */}
               <div>
-                <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-4">
+                <h2 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-4">
                   Solicita tu diagnóstico organizacional gratuito
                 </h2>
                 <p className="text-[#5A6478] text-lg mb-10">
@@ -284,7 +284,7 @@ export default function Home() {
                   {benefits.map((b) => (
                     <li key={b} className="flex items-start gap-3">
                       <CheckCircle2 size={18} className="text-[#00C2A0] mt-0.5 flex-shrink-0" />
-                      <span className="text-[#0F1923] font-medium">{b}</span>
+                      <span className="text-[#191616] font-medium">{b}</span>
                     </li>
                   ))}
                 </ul>

@@ -28,7 +28,7 @@ export default function CTAButton({
     primary:
       "bg-[#00C2A0] text-white hover:bg-[#00a88a] shadow-sm hover:shadow-md active:scale-[0.98]",
     secondary:
-      "border-2 border-[#1a5cb8] text-[#1a5cb8] hover:bg-[#EBF2FF] active:scale-[0.98]",
+      "border-2 border-[#1173E4] text-[#1173E4] hover:bg-[#D6E8FF] active:scale-[0.98]",
   };
 
   const cls = `${base} ${styles[variant]} ${className}`;

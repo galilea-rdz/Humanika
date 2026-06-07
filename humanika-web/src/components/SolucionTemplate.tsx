@@ -30,7 +30,7 @@ export default function SolucionTemplate({
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <section className="bg-gradient-to-br from-[#0d2a5e] via-[#1a5cb8] to-[#0d4a8c] py-24">
+        <section className="bg-gradient-to-br from-[#0A3A7A] via-[#1173E4] to-[#0B4FC2] py-24">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <span className="inline-block px-3 py-1 bg-white/10 text-white/80 text-xs font-semibold rounded-full mb-6">
               {badge}
@@ -56,7 +56,7 @@ export default function SolucionTemplate({
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="font-sora text-2xl md:text-3xl font-bold text-[#0F1923] mb-6">
+                <h2 className="font-sora text-2xl md:text-3xl font-bold text-[#191616] mb-6">
                   ¿Qué incluye este servicio?
                 </h2>
                 <ul className="flex flex-col gap-4">
@@ -68,8 +68,8 @@ export default function SolucionTemplate({
                   ))}
                 </ul>
               </div>
-              <div className="bg-[#F8F9FB] rounded-[8px] p-8 border border-gray-100">
-                <h3 className="font-sora font-bold text-[#0F1923] mb-4">¿Listo para comenzar?</h3>
+              <div className="bg-[#FDFDFD] rounded-[8px] p-8 border border-gray-100">
+                <h3 className="font-sora font-bold text-[#191616] mb-4">¿Listo para comenzar?</h3>
                 <p className="text-[#5A6478] text-sm leading-relaxed mb-6">
                   Solicita tu diagnóstico gratuito y descubre cómo este servicio puede transformar tu organización.
                 </p>
@@ -88,19 +88,19 @@ export default function SolucionTemplate({
         </section>
 
         {/* Process */}
-        <section className="py-20 bg-[#F8F9FB]">
+        <section className="py-20 bg-[#FDFDFD]">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <h2 className="font-sora text-2xl md:text-3xl font-bold text-[#0F1923] mb-12 text-center">
+            <h2 className="font-sora text-2xl md:text-3xl font-bold text-[#191616] mb-12 text-center">
               Proceso de trabajo
             </h2>
             <div className="flex flex-col gap-6 max-w-3xl mx-auto">
               {processSteps.map((step, i) => (
                 <div key={step.title} className="flex gap-5 bg-white rounded-[8px] p-6 shadow-sm border border-gray-100">
-                  <div className="w-10 h-10 rounded-full bg-[#1a5cb8] text-white flex items-center justify-center text-sm font-bold flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[#1173E4] text-white flex items-center justify-center text-sm font-bold flex-shrink-0">
                     {i + 1}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#0F1923] mb-1">{step.title}</h3>
+                    <h3 className="font-semibold text-[#191616] mb-1">{step.title}</h3>
                     <p className="text-sm text-[#5A6478] leading-relaxed">{step.description}</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export default function SolucionTemplate({
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-[#1a5cb8]">
+        <section className="py-20 bg-[#1173E4]">
           <div className="max-w-3xl mx-auto px-6 text-center">
             <h2 className="font-sora text-2xl md:text-3xl font-bold text-white mb-4">
               Da el primer paso hoy

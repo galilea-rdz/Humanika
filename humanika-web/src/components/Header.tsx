@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import HumanikaLogo from '@/components/HumanikaLogo';
 
 const solutions = [
   { name: 'NOM-035 STPS', href: '/soluciones/nom-035' },
@@ -33,9 +34,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-18 py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="font-sora font-bold text-xl text-primary tracking-tight">
-              Humanika
-            </span>
+            <HumanikaLogo height={40} color={scrolled ? '#191616' : 'white'} />
           </Link>
 
           {/* Desktop Nav */}
@@ -46,7 +45,7 @@ export default function Header() {
               onMouseEnter={() => setSolutionsOpen(true)}
               onMouseLeave={() => setSolutionsOpen(false)}
             >
-              <button className="flex items-center gap-1 text-sm font-medium text-[#0F1923] hover:text-primary transition-colors">
+              <button className="flex items-center gap-1 text-sm font-medium text-[#191616] hover:text-primary transition-colors">
                 Soluciones
                 <ChevronDown
                   size={14}
@@ -59,7 +58,7 @@ export default function Header() {
                     <Link
                       key={s.href}
                       href={s.href}
-                      className="block px-4 py-2.5 text-sm text-[#0F1923] hover:bg-[#EBF2FF] hover:text-primary transition-colors"
+                      className="block px-4 py-2.5 text-sm text-[#191616] hover:bg-[#D6E8FF] hover:text-primary transition-colors"
                     >
                       {s.name}
                     </Link>
@@ -68,7 +67,7 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/nosotros" className="text-sm font-medium text-[#0F1923] hover:text-primary transition-colors">
+            <Link href="/nosotros" className="text-sm font-medium text-[#191616] hover:text-primary transition-colors">
               Nosotros
             </Link>
             <Link href="/recursos" className="text-sm font-medium text-[#5A6478] hover:text-primary transition-colors">
@@ -77,7 +76,7 @@ export default function Header() {
             <Link href="/casos-de-exito" className="text-sm font-medium text-[#5A6478] hover:text-primary transition-colors">
               Casos de Éxito
             </Link>
-            <Link href="/contacto" className="text-sm font-medium text-[#0F1923] hover:text-primary transition-colors">
+            <Link href="/contacto" className="text-sm font-medium text-[#191616] hover:text-primary transition-colors">
               Contacto
             </Link>
           </nav>
@@ -94,7 +93,7 @@ export default function Header() {
 
           {/* Mobile hamburger */}
           <button
-            className="lg:hidden p-2 text-[#0F1923]"
+            className="lg:hidden p-2 text-[#191616]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
           >
@@ -113,7 +112,7 @@ export default function Header() {
                 <Link
                   key={s.href}
                   href={s.href}
-                  className="block py-2 pl-3 text-sm text-[#0F1923] hover:text-primary"
+                  className="block py-2 pl-3 text-sm text-[#191616] hover:text-primary"
                   onClick={() => setMenuOpen(false)}
                 >
                   {s.name}
@@ -129,7 +128,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="py-2.5 text-sm font-medium text-[#0F1923] border-t border-gray-50"
+                className="py-2.5 text-sm font-medium text-[#191616] border-t border-gray-50"
                 onClick={() => setMenuOpen(false)}
               >
                 {item.name}

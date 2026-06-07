@@ -14,12 +14,12 @@ export default function CasosDeExito() {
     <>
       <Header />
       <main className="pt-20">
-        <section className="py-32 bg-[#F8F9FB]">
+        <section className="py-32 bg-[#FDFDFD]">
           <div className="max-w-3xl mx-auto px-6 text-center">
-            <div className="w-16 h-16 bg-[#EBF2FF] rounded-full flex items-center justify-center mx-auto mb-8">
-              <Clock size={28} className="text-[#1a5cb8]" />
+            <div className="w-16 h-16 bg-[#D6E8FF] rounded-full flex items-center justify-center mx-auto mb-8">
+              <Clock size={28} className="text-[#1173E4]" />
             </div>
-            <h1 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-6">
+            <h1 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-6">
               Casos de Éxito
             </h1>
             <p className="text-[#5A6478] text-lg leading-relaxed mb-4">
@@ -30,7 +30,7 @@ export default function CasosDeExito() {
             </p>
             <Link
               href="/diagnostico-gratuito"
-              className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1a5cb8] text-white font-semibold rounded-md hover:bg-[#1449a0] transition-colors"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1173E4] text-white font-semibold rounded-md hover:bg-[#0D5CC4] transition-colors"
             >
               Solicita tu diagnóstico gratuito
               <ArrowRight size={15} />
