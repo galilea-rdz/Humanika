@@ -23,7 +23,7 @@ export default function Capacitacion() {
     <>
       <Header />
       <main className="pt-20">
-        <section className="bg-gradient-to-br from-[#0d2a5e] to-[#1a5cb8] py-24">
+        <section className="bg-gradient-to-br from-[#0A3A7A] to-[#1173E4] py-24">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <span className="inline-block px-3 py-1 bg-white/10 text-white/80 text-xs font-semibold rounded-full mb-6">Soluciones / Capacitación</span>
             <h1 className="font-sora text-4xl md:text-5xl font-bold text-white mb-6 max-w-3xl">
@@ -40,11 +40,11 @@ export default function Capacitacion() {
 
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <h2 className="font-sora text-2xl font-bold text-[#0F1923] mb-10 text-center">Talleres disponibles</h2>
+            <h2 className="font-sora text-2xl font-bold text-[#191616] mb-10 text-center">Talleres disponibles</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {workshops.map((w) => (
-                <div key={w.title} className="bg-[#F8F9FB] rounded-xl p-6 border border-gray-100">
-                  <h3 className="font-sora font-semibold text-[#0F1923] mb-3">{w.title}</h3>
+                <div key={w.title} className="bg-[#FDFDFD] rounded-xl p-6 border border-gray-100">
+                  <h3 className="font-sora font-semibold text-[#191616] mb-3">{w.title}</h3>
                   <div className="flex flex-col gap-1.5 text-xs text-[#5A6478]">
                     <span><strong>Dirigido a:</strong> {w.target}</span>
                     <span><strong>Duración:</strong> {w.duration}</span>
@@ -58,7 +58,7 @@ export default function Capacitacion() {
           </div>
         </section>
 
-        <section className="py-16 bg-[#1a5cb8]">
+        <section className="py-16 bg-[#1173E4]">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="font-sora text-2xl font-bold text-white mb-4">¿Qué taller necesita tu equipo?</h2>
             <p className="text-white/70 mb-8">Cuéntanos tu situación y diseñamos la propuesta más adecuada para tu organización.</p>
