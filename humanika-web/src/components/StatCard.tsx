@@ -54,7 +54,7 @@ export default function StatCard({ value, label, prefix = "", suffix = "" }: Sta
       ref={ref}
       className="bg-white rounded-[8px] p-8 text-center shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200"
     >
-      <div className="text-4xl md:text-5xl font-bold text-[#1a5cb8] mb-2">
+      <div className="text-4xl md:text-5xl font-bold text-[#1173E4] mb-2">
         {prefix}
         {visible ? count.toLocaleString() : 0}
         {suffix}
