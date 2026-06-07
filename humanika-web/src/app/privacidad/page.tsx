@@ -14,21 +14,21 @@ export default function PrivacidadPage() {
       <main className="pt-20">
         <section className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-6">
-            <h1 className="font-sora text-3xl md:text-4xl font-bold text-[#0F1923] mb-2">
+            <h1 className="font-sora text-3xl md:text-4xl font-bold text-[#191616] mb-2">
               Aviso de Privacidad
             </h1>
             <p className="text-[#5A6478] text-sm mb-10">Última actualización: junio 2025</p>
 
             <div className="prose prose-sm max-w-none text-[#5A6478] space-y-8">
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Responsable del tratamiento</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Responsable del tratamiento</h2>
                 <p>
-                  <strong>Humanika</strong> (en adelante "el Responsable"), con domicilio en Monterrey, Nuevo León, México, y correo electrónico de contacto <a href="mailto:contacto@humanika.mx" className="text-[#1a5cb8] underline">contacto@humanika.mx</a>, es responsable del tratamiento de sus datos personales de conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su Reglamento.
+                  <strong>Humanika</strong> (en adelante "el Responsable"), con domicilio en Monterrey, Nuevo León, México, y correo electrónico de contacto <a href="/contacto" className="text-[#1173E4] underline">nuestra página de contacto</a>, es responsable del tratamiento de sus datos personales de conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su Reglamento.
                 </p>
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Datos personales recabados</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Datos personales recabados</h2>
                 <p>El Responsable podrá recabar los siguientes datos personales:</p>
                 <ul className="list-disc pl-5 mt-2 space-y-1">
                   <li>Nombre completo</li>
@@ -41,7 +41,7 @@ export default function PrivacidadPage() {
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Finalidades del tratamiento</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Finalidades del tratamiento</h2>
                 <p><strong>Finalidades primarias:</strong></p>
                 <ul className="list-disc pl-5 mt-2 space-y-1">
                   <li>Atender solicitudes de información sobre los servicios de Humanika.</li>
@@ -54,20 +54,20 @@ export default function PrivacidadPage() {
                   <li>Envío de información relevante sobre salud mental organizacional y NOM-035.</li>
                   <li>Invitaciones a eventos o webinars relacionados con bienestar laboral.</li>
                 </ul>
-                <p className="mt-3">Si no deseas que sus datos sean tratados para las finalidades secundarias, puede manifestarlo enviando un correo a <a href="mailto:contacto@humanika.mx" className="text-[#1a5cb8] underline">contacto@humanika.mx</a>.</p>
+                <p className="mt-3">Si no deseas que sus datos sean tratados para las finalidades secundarias, puede manifestarlo enviando un correo a <a href="/contacto" className="text-[#1173E4] underline">nuestra página de contacto</a>.</p>
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Transferencia de datos</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Transferencia de datos</h2>
                 <p>
                   Sus datos personales no serán transferidos a terceros sin su consentimiento, salvo en los casos previstos en el artículo 37 de la LFPDPPP.
                 </p>
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Derechos ARCO</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Derechos ARCO</h2>
                 <p>
-                  Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse (derechos ARCO) al tratamiento de sus datos personales. Para ejercer estos derechos, envíe su solicitud a <a href="mailto:contacto@humanika.mx" className="text-[#1a5cb8] underline">contacto@humanika.mx</a> con el asunto "Derechos ARCO", indicando su nombre completo, correo electrónico y la acción solicitada.
+                  Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse (derechos ARCO) al tratamiento de sus datos personales. Para ejercer estos derechos, envíe su solicitud a <a href="/contacto" className="text-[#1173E4] underline">nuestra página de contacto</a> con el asunto "Derechos ARCO", indicando su nombre completo, correo electrónico y la acción solicitada.
                 </p>
                 <p className="mt-2">
                   Responderemos su solicitud en un plazo máximo de 20 días hábiles contados a partir de la recepción.
@@ -75,25 +75,25 @@ export default function PrivacidadPage() {
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Cookies y tecnologías de rastreo</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Cookies y tecnologías de rastreo</h2>
                 <p>
                   Nuestro sitio web puede utilizar cookies para mejorar la experiencia de navegación y recopilar estadísticas de uso. Puede configurar su navegador para rechazar cookies, aunque esto puede afectar la funcionalidad del sitio.
                 </p>
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Modificaciones al aviso de privacidad</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Modificaciones al aviso de privacidad</h2>
                 <p>
                   El Responsable se reserva el derecho de modificar este aviso de privacidad en cualquier momento. Los cambios serán publicados en este sitio web y, de ser significativos, notificados por correo electrónico.
                 </p>
               </section>
 
               <section>
-                <h2 className="font-sora text-xl font-bold text-[#0F1923] mb-3">Contacto</h2>
+                <h2 className="font-sora text-xl font-bold text-[#191616] mb-3">Contacto</h2>
                 <p>
                   Para cualquier consulta relacionada con el tratamiento de sus datos personales, puede contactarnos en:
                   <br />
-                  Correo: <a href="mailto:contacto@humanika.mx" className="text-[#1a5cb8] underline">contacto@humanika.mx</a>
+                  Correo: <a href="/contacto" className="text-[#1173E4] underline">nuestra página de contacto</a>
                   <br />
                   Teléfono: +52 1 81 8207 4338
                 </p>
