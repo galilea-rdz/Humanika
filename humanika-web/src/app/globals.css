@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1a5cb8;
+  --color-accent: #00C2A0;
+  --color-bg: #F8F9FB;
+  --color-text: #0F1923;
+  --color-text-secondary: #5A6478;
+  --color-blue-light: #EBF2FF;
+}
+
+@theme inline {
+  --color-primary: #1a5cb8;
+  --color-accent: #00C2A0;
+  --color-bg: #F8F9FB;
+  --color-text: #0F1923;
+  --color-text-secondary: #5A6478;
+  --color-blue-light: #EBF2FF;
+  --font-sora: 'Sora', sans-serif;
+  --font-dm: 'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
