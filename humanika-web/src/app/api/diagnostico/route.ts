@@ -132,7 +132,7 @@ Fecha: ${new Date().toLocaleString("es-MX", { timeZone: "America/Monterrey" })}
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "Humanika Web <noreply@humanika.mx>",
+          from: "Humanika <onboarding@resend.dev>",
           to: [notificationEmail],
           subject: `Nueva solicitud de diagnóstico: ${data.nombre} — ${data.empresa}`,
           text: emailBody,
